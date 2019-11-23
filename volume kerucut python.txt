@@ -1,0 +1,10 @@
+print ("Menghitung volume kerucut")
+print ("Kelompok 34")
+print ("Nama : Maftukhah DU")
+print ("NIM : 21120117120006")
+print ("  ")
+r = float(input("masukkan jari - jari= "))
+t = float(input("masukkan tinggi= "))
+phi = 3.14
+hasil = (phi*(r*r)*t)/3
+print ("Volume kerucutnya adalah %d " %hasil)

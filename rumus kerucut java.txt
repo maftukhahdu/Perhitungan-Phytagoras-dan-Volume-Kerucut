@@ -1,0 +1,23 @@
+package rumus.kerucut.java;
+import java.util.Scanner;
+
+public class RumusKerucutJava {
+
+    public static void main(String[] args) {
+       float jari,tinggi;
+        double hasil;
+        double phi=3.14;
+        System.out.println ("Kelompok 34");
+        System.out.println ("Nama : Maftukhah DU");
+        System.out.println ("NIM : 21120117120006");
+        System.out.println (" ");
+        Scanner sc = new Scanner(System.in);
+        System.out.print ("Masukkan jari - jari = ");
+        jari = sc.nextFloat();
+        System.out.print ("Masukkan Tinggi = ");
+        tinggi = sc.nextFloat();
+        hasil=(phi*(jari*jari)*tinggi/3);
+        
+        
+        System.out.println("hasil= "+hasil); 
+    }
