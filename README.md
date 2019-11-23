@@ -1,2 +1,1 @@
-# Phytagoras
-# Volume Kerucut
+# Phytagoras dan Volume Kerucut
