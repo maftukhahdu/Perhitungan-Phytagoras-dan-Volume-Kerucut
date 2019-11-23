@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title> DKP</title>
+  </head>
+
+  <body>
+    <h2> Menghitung Volume Kerucut </h2>
+    <h3> DKP </h3>
+    <h5> Nama : Maftukhah DU </h5>
+    <h5> NIM :21120117120006 </h5>
+    <form method="post">
+	    Jari-jari <input type="text" name="jarijari">cm<br>
+	    Tinggi <input type="text" name="tinggi">cm<br>
+              <input type="submit" value="Hitung">
+    </form>
+    <?php
+     $phi = 3.14;
+     $jari = $_POST['jarijari'];
+     $tinggi = $_POST['tinggi'];
+     $hitung = (1/3*$phi)*($jari*$jari)*$tinggi;
+       echo"Volume Kerucutnya = $hitung cm<sup>3</sup>";
+
+     ?>
+  </body>
+</html>
